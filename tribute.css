@@ -11,17 +11,18 @@
       font-size: 36px;
     }
 
-    #sec {
-      background-image: url("backbody.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 1335px;
-      height: 625px;
-      position: absolute;
-      top: 100px;
-      left: 190px;
-      gap: 80px;
-    }
+   #sec {
+  background-image: url("backbody.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: auto;
+  max-width: 1335px;
+  position: absolute;
+  top: 100px;
+  left: 10%;
+  gap: 80px;
+}
 
     nav {
       display: flex;
