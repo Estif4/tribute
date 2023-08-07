@@ -1,38 +1,42 @@
-<style>
-    #nel {
-      margin-bottom: 0;
-      margin-top: 0;
-      margin-right: 0;
-      color:red;
-      margin-left: 100px;
-      height: 100px;
-      padding-top: 20px;
-      width: 450px;
-      font-size: 36px;
-    }
+#nel{
+   color:gold;
+    font-size:15px;
+    
+    width:35%;
+    position:relative;
+    top:20%;
+    left:4%;
+   }
+   body{
+    width:100%;
 
-   #sec {
+   }
+  
+    #sec {
   background-image: url("backbody.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 80%;
-  height: auto;
-  max-width: 1335px;
-  position: absolute;
-  top: 100px;
-  left: 10%;
-  gap: 80px;
+  background-repeat: no repeat;
+  background-width:20px;
+  width:80%;
+  height:auto;
+  position:relative;
+  top:-78.5%;
+  left:9%;
+  
+
 }
 
     nav {
       display: flex;
-      position: absolute;
-      top: 80px;
-      left: 1110px;
-      gap: 80px;
-    }
+     gap:80px;
+    
+    
+      }
 
-    nav a {
+    nav a{
+      position:relative;
+      top:10%;
+      left:70%;
+      
       text-decoration: none;
       color: white;
       background-color: blue;
@@ -41,32 +45,38 @@
     body {
       background-image: url("back.jpg");
       background-repeat: no-repeat;
-      margin: 0px;
-      padding: 0px;
+      height:auto;
+  
+  
     }
 
-    #asid {
-      position: absolute;
-      top: 85px;
-      left: 0px;
+    #asidd {
+      position:relative;
+    top:0%;
+      left:0%;
+      width:9%;
       background-color: powderblue;
       overflow-y: scroll;
       line-height: 50px;
-      margin-left: 0px;
-      height: 550px;
+      margin-left:0px;
+      height:510px;
       padding: 2px;
       color:blue;
 
     }
 
     #pos {
-      position: absolute;
-      left: 400px;
-      top: 100px;
+      position: relative;
+      left:25%;
+      top:-155%;
+    
       background-color: black;
       padding-top: 15px;
-      width: 1145px;
-      height: 420px;
+      width:75%;
+   border:none;
+     height:500px;
+      margin-right:14px
+  
     }
 
     #foot {
@@ -90,4 +100,3 @@
       display: inline-flex;
       gap: 10px;
     }
-  </style>
